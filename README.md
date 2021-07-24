@@ -1,12 +1,12 @@
 # FivemApi
 A small and useful module. You can forward Fivem server information on discord!
 # install :
-```npm install FivemApi```<br>
+```npm install FivemApiy```<br>
 If you need help, you can come to:<br>
 https://discord.gg/H6C8ggFfRu<br>
 # How-to use :
-```const fivem = require("FivemApi");```
-```const server = new fivem.FivemApi("000.000.00.00:30123");```<br>
+```const fivem = require("FivemApiy");```<br>
+```const server = new fivem.FivemApiy("000.000.00.00:30123");```<br>
 Here is an example to display the number of players online on a server.<br>
 (default port is 30123)<br>
 # Requests :
@@ -33,8 +33,8 @@ Here is an example to display the number of players online on a server.<br>
 * getLicenseKey - The license key for the server.<br>
 # Example :
 ```
-const fivem = require("FivemApi");
-const server = new fivem.FivemApi("000.000.00.00:30123");
+const fivem = require("FivemApiy");
+const server = new fivem.FivemApiy("000.000.00.00:30123");
 
 
 
