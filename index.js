@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-class FivemApi {
+class FivemApiy {
     constructor(ip) {
         if (!ip) throw Error('Please provide a serverIP and serverPort. Need Help? Check Out: https://discord.gg/H6C8ggFfRu');
         this.ip = ip;
@@ -110,4 +110,4 @@ class FivemApi {
     };
 };
 
-module.exports.FivemApi = FivemApi;
+module.exports.FivemApiy = FivemApiy;
